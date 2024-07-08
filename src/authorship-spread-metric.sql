@@ -87,6 +87,4 @@ SELECT
 FROM example_windowed
 GROUP BY filepath
 ;
------- Authorship Spread Metric ------
-
-
+--------------------------------------
