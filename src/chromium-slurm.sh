@@ -17,7 +17,7 @@
 #SBATCH --nodes=1			       # How many nodes to run on
 #SBATCH --ntasks-per-node=36	 # How many tasks per node - make this roughly the number of CPUs (~36)
 #SBATCH --cpus-per-task=1		 # Number of CPUs per task
-#SBATCH --mem=0		           # Hog all the memory on the node we've got
+#SBATCH --mem=40gb		           # Enough for the entire repo
 
 echo "Script running!"
 date
